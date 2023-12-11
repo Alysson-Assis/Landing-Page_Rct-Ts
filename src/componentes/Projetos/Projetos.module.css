@@ -1,4 +1,12 @@
-.Projetos {
+.Projetos{
+    width: auto;
+    height: 500px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userProjetos {
     width: 500px;
     height: 300px;
 }

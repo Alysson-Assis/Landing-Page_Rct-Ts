@@ -3,7 +3,10 @@ import styles from "./Projetos.module.css"
 
 const Projetos = () => {
     return (
-        <img src={projeto} className={styles.Projetos}alt="exemplo de projeto" />
+        <div className={styles.Projetos}>
+            <img src={projeto} className={styles.userProjetos}alt="exemplo de projeto" />
+        </div>
+        
     );
 }
 

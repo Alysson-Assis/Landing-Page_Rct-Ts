@@ -5,16 +5,16 @@ const Navbar = () => {
 
 
     return (
-        <div>
+        <div className={styles.Nav}>
             <img src={logo} className={styles.logoPage} alt="HydraOctopus_logo" />
-            <h1>HydraOctopus</h1>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Objetivo</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Membros</a></li>
-                <li><a href="">Contatos</a></li>
-            </ul>
+            <h1 className={styles.Titulo}>CyberOctopusSecurity</h1>
+            <ul className={styles.container_components}>
+                <li className={styles.components}><a className={styles.link} href="#">Home</a></li>
+                <li className={styles.components}><a className={styles.link} href="#">Objetivo</a></li>
+                <li className={styles.components}><a className={styles.link} href="#">Projetos</a></li>
+                <li className={styles.components}><a className={styles.link} href="#">Membros</a></li>
+                <li className={styles.components}><a className={styles.link} href="#">Contatos</a></li>
+            </ul> 
         </div>
     );
 }
