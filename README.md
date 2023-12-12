@@ -1,4 +1,4 @@
-# Landing Hydra Octopus 
+# Landing CyberOctopusSecurity
 
 Criei os componetes para cada parte pagina:
  - NavBar
