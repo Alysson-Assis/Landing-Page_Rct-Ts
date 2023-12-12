@@ -27,7 +27,8 @@ const Inscrição: FC = () => {
     return (
         <>
         <div className={styles.container}>
-            <div>
+            <div className={styles.form}>
+                <h2>Escreva-se</h2>
                 <input type="text" placeholder="Nome" name='username' onChange={handleChange}/><br/>
                 <input type="text" placeholder="E-mail" name="email" onChange={handleChange}/><br />
                 <button onClick={addMember}>Inscreva-se</button>

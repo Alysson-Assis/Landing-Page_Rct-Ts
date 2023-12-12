@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import GlobalStyle from './global';
 import App from './App';
 declare module "*.jpg"
 declare module "*.png"
@@ -11,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <GlobalStyle />
+    
       <App />
     
   </React.StrictMode>

@@ -9,12 +9,13 @@
 }
 .logoPage{
     margin: auto 15px;
-    height: 70px;
-    width: 70px;
+    height: 80  px;
+    width: 80px;
     background-position: center center;
+    border-radius: 20px;
 }
 .Titulo{
-    margin-left: 15px;
+    margin: auto 15px;
     color: white;
 }
 

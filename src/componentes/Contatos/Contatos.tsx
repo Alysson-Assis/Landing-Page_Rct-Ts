@@ -1,5 +1,13 @@
+import styles from "./Contatos.module.css"
+
 const Contatos = () => {
-    return <h1>test</h1>
+    return (
+        <div className={styles.container}>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    );
 }
 
 export default Contatos;

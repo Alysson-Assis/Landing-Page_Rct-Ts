@@ -3,7 +3,6 @@ import styles from "./Navbar.module.css"
 
 const Navbar = () => {
 
-
     return (
         <div className={styles.Nav}>
             <img src={logo} className={styles.logoPage} alt="HydraOctopus_logo" />
@@ -14,7 +13,7 @@ const Navbar = () => {
                 <li className={styles.components}><a className={styles.link} href="#">Projetos</a></li>
                 <li className={styles.components}><a className={styles.link} href="#">Membros</a></li>
                 <li className={styles.components}><a className={styles.link} href="#">Contatos</a></li>
-            </ul> 
+            </ul>
         </div>
     );
 }
